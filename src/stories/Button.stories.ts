@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Button } from './Button';
+import { Button, ButtonSize, ButtonVariant } from './Button';
 import { fn } from '@storybook/test';
 
 const meta = {
@@ -18,80 +18,80 @@ type Story = StoryObj<typeof meta>;
 
 export const PrimaryExtraSmall: Story = {
   args: {
-    variant: 'primary',
-    size: 'xs',
+    variant: ButtonVariant.Primary,
+    size: ButtonSize.ExtraSmall,
     label: 'Primary Extra Small',
   },
 };
 
 export const PrimarySmall: Story = {
   args: {
-    variant: 'primary',
-    size: 'sm',
+    variant: ButtonVariant.Primary,
+    size: ButtonSize.Small,
     label: 'Primary Small',
   },
 };
 
 export const PrimaryMedium: Story = {
   args: {
-    variant: 'primary',
-    size: 'md',
+    variant: ButtonVariant.Primary,
+    size: ButtonSize.Medium,
     label: 'Primary Medium',
   },
 };
 
 export const PrimaryLarge: Story = {
   args: {
-    variant: 'primary',
-    size: 'lg',
+    variant: ButtonVariant.Primary,
+    size: ButtonSize.Large,
     label: 'Primary Large',
   },
 };
 
 export const PrimaryExtraLarge: Story = {
   args: {
-    variant: 'primary',
-    size: 'xl',
+    variant: ButtonVariant.Primary,
+    size: ButtonSize.ExtraLarge,
     label: 'Primary Extra Large',
   },
 };
 
 export const SecondaryExtraSmall: Story = {
   args: {
-    variant: 'secondary',
-    size: 'xs',
+    variant: ButtonVariant.Secondary,
+    size: ButtonSize.ExtraSmall,
     label: 'Secondary Extra Small',
   },
 };
 
 export const SecondarySmall: Story = {
   args: {
-    variant: 'secondary',
-    size: 'sm',
+    variant: ButtonVariant.Secondary,
+    size: ButtonSize.Small,
     label: 'Secondary Small',
   },
 };
 
 export const SecondaryMedium: Story = {
   args: {
-    variant: 'secondary',
-    size: 'md',
+    variant: ButtonVariant.Secondary,
+    size: ButtonSize.Medium,
     label: 'Secondary Medium',
   },
 };
 
 export const SecondaryLarge: Story = {
   args: {
-    variant: 'secondary',
-    size: 'lg',
+    variant: ButtonVariant.Secondary,
+    size: ButtonSize.Large,
     label: 'Secondary Large',
   },
 };
 
 export const SecondaryExtraLarge: Story = {
   args: {
-    variant: 'secondary',
-    size: 'xl',
+    variant: ButtonVariant.Secondary,
+    size: ButtonSize.ExtraLarge,
     label: 'Secondary Extra Large',
   },
 };

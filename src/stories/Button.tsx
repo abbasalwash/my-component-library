@@ -1,5 +1,18 @@
 import '../index.css';
 
+export enum ButtonVariant {
+  Primary = 'primary',
+  Secondary = 'secondary',
+}
+
+export enum ButtonSize {
+  ExtraSmall = 'xs',
+  Small = 'sm',
+  Medium = 'md',
+  Large = 'lg',
+  ExtraLarge = 'xl',
+}
+
 interface ButtonProps {
   variant: 'primary' | 'secondary';
   size: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
